@@ -28,7 +28,7 @@ jobs:
 
             - name: Commit file
               run: |
-                  git config --global user.name 'kyeongseo choi'
+                  git config --global user.name 'kyeongseo90'
                   git config --global user.email 'rudtj9099@gmail.com'
                   git add naver.txt
                   git commit -m "Add naver.txt"
