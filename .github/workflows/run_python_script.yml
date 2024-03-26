@@ -10,6 +10,8 @@ jobs:
         steps:
             - name: Checkout repository
               uses: actions/checkout@v2
+              with:
+                persist-credentials: false
 
             - name: Set up Python
               uses: actions/setup-python@v2
@@ -31,3 +33,9 @@ jobs:
                   git add naver.txt
                   git commit -m "Add naver.txt"
                   git push
+                  
+            - name: Push
+              uses: ad-m/github-push-action@master
+              with:
+                branch: "main"
+                github_token: ${{ secrets.GH_TOKEN }}
