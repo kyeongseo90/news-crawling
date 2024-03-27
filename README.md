@@ -16,7 +16,7 @@ The current location is where the main code is located.
 7. go to 'Settings -> Secrets and variables -> Actions' in your repo
 8. create 'new repository secrets'
 9. enter 'myToken' in [Name] and the copied token in [Secret] => it'll be a variable you can use in your repo!
-10. create two 'new repository secrets'. One is 'GIT_NAME', the other is 'GIT_MAIL'. You need to write your name and mail in the [SECRET].
+10. create two 'new repository secrets'. One is 'GIT_NAME', the other is 'GIT_EMAIL'. You need to write your name and e-mail in each [SECRET].
 11. go to Actions in your repo
 12. Run your workflow file ! you're not an expert in Github Actions! lol
 
